@@ -1,13 +1,13 @@
-import type { MetadataRoute } from 'next';
+import { MetadataRoute } from 'next';
 
-const baseUrl = 'https://thelongtake.journal';
+const baseUrl = 'https://cinema-journal.vercel.app';
 
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: [],
+      disallow: ['/api/', '/admin', '/private'],
     },
     sitemap: `${baseUrl}/sitemap.xml`,
   };
