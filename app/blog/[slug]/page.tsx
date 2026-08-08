@@ -19,7 +19,12 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title: post.title,
     description: post.excerpt,
-    openGraph: { title: post.title, description: post.excerpt, type: 'article' },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      type: 'article',
+      images: post.image ? [post.image] : undefined,
+    },
   };
 }
 
@@ -29,43 +34,58 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
 
   const relatedPosts = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 3);
 
+  const headerInner = (
+    <>
+      <Link href="/blog" className="text-sm text-white/50 hover:text-white flex items-center gap-2 mb-10 transition-colors">
+        <span className="arrow rotate-180">→</span> Back to blog
+      </Link>
+
+      <div className="flex items-center gap-3 mb-8">
+        <span className="eyebrow text-white/70">{post.tag}</span>
+        <div className="w-8 h-px bg-white/20" />
+        <span className="text-xs text-white/40 font-mono">
+          {post.date}, {post.read} read
+        </span>
+      </div>
+
+      <h1 className="font-display text-5xl md:text-7xl font-light leading-[1.02] mb-8 tracking-tight">
+        {post.title}
+      </h1>
+
+      <p className="text-xl text-white/65 leading-relaxed font-light mb-10">{post.excerpt}</p>
+
+      <div className="flex items-center justify-between border-y border-white/12 py-5">
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-white/15 to-white/5 border border-white/20 flex items-center justify-center font-display text-sm">
+            IC
+          </div>
+          <div>
+            <div className="text-sm">Iván Castellano</div>
+            <div className="text-xs text-white/50">Contributing Editor, Lisbon</div>
+          </div>
+        </div>
+        <div className="flex gap-4 text-xs text-white/50">
+          <SaveShareButtons />
+        </div>
+      </div>
+    </>
+  );
+
   return (
     <>
-      <article className="px-6 lg:px-10 pt-40 pb-20 max-w-[860px] mx-auto">
-        <Reveal className="mb-12">
-          <Link href="/blog" className="text-sm text-white/50 hover:text-white flex items-center gap-2 mb-10 transition-colors">
-            <span className="arrow rotate-180">→</span> Back to blog
-          </Link>
-
-          <div className="flex items-center gap-3 mb-8">
-            <span className="eyebrow text-white/70">{post.tag}</span>
-            <div className="w-8 h-px bg-white/20" />
-            <span className="text-xs text-white/40 font-mono">
-              {post.date}, {post.read} read
-            </span>
+      {post.image ? (
+        // Full-bleed hero, graded to match the site's ambient cinematic background
+        // so the photo fades into --bg instead of sitting on top of it.
+        <div className="article-hero h-[68vh] min-h-[520px]">
+          <img src={post.image} alt={post.imageAlt || post.title} />
+          <div className="relative z-10 h-full flex flex-col justify-end px-6 lg:px-10 pt-40 pb-0 max-w-[860px] mx-auto">
+            <Reveal>{headerInner}</Reveal>
           </div>
+        </div>
+      ) : null}
 
-          <h1 className="font-display text-5xl md:text-7xl font-light leading-[1.02] mb-8 tracking-tight">
-            {post.title}
-          </h1>
-
-          <p className="text-xl text-white/65 leading-relaxed font-light mb-10">{post.excerpt}</p>
-
-          <div className="flex items-center justify-between border-y border-white/12 py-5">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-white/15 to-white/5 border border-white/20 flex items-center justify-center font-display text-sm">
-                IC
-              </div>
-              <div>
-                <div className="text-sm">Iván Castellano</div>
-                <div className="text-xs text-white/50">Contributing Editor, Lisbon</div>
-              </div>
-            </div>
-            <div className="flex gap-4 text-xs text-white/50">
-              <SaveShareButtons />
-            </div>
-          </div>
-        </Reveal>
+      <article className={`px-6 lg:px-10 ${post.image ? 'pt-16' : 'pt-40'} pb-20 max-w-[860px] mx-auto`}>
+        {!post.image && <Reveal className="mb-12">{headerInner}</Reveal>}
 
         <Reveal className="glass-panel p-8 md:p-12 mb-12">
           <div className="article-body" dangerouslySetInnerHTML={{ __html: post.content }} />
@@ -95,4 +115,3 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
     </>
   );
 }
-
