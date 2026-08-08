@@ -42,14 +42,18 @@ export const blogPosts: BlogPost[] = [
       <p>None of these films are slow because they have nothing to say. They are slow because what they have to say resists compression. A grief that arrives in a single cut feels like information. A grief that arrives after forty unhurried minutes feels like something closer to experience. That difference is, as far as we can tell, the entire case for this kind of cinema. Our <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/route">Routes</a> section maps a few of the physical locations behind films like these, for anyone who wants to stand where the waiting actually happened.</p>
       <p>We will keep adding to this list slowly, the way we do most things. Our <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/about">About</a> page has more on why we write like this, and our <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog">other dispatches</a> are a reasonable place to see what we tend to notice next. If you have a film that belongs here, get in touch and tell us what we missed.</p>
       <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">A Few Questions We Get Asked</h2>
-      <p><strong>What actually makes a film a slow burn, rather than just slow?</strong><br/>
-      A slow burn earns its pace. The duration is doing something, building tension, letting a feeling accumulate, forcing you to sit inside a moment rather than move past it. A film can simply be slow without any of that intent behind it. The distinction matters more than the runtime.</p>
-      <p><strong>Do slow burn movies reward multiple viewings?</strong><br/>
-      Often more than faster films do. Once you already know where a slow film is going, you stop waiting for plot and start noticing texture, framing, the small decisions that a first viewing tends to rush past in anticipation of what happens next.</p>
-      <p><strong>Where should someone new to slow cinema start?</strong><br/>
-      Paris, Texas is usually our first recommendation. It has a clear emotional throughline even at its most unhurried, which makes the pacing easier to trust than something like The Turin Horse on a first attempt.</p>
-      <p><strong>Is there a difference between slow cinema and a slow burn thriller?</strong><br/>
-      Some overlap, but not entirely. A slow burn thriller usually still resolves around suspense and payoff. Slow cinema, as we mean it here, is often less concerned with payoff at all, and more interested in duration as its own kind of subject.</p>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">What actually makes a film a slow burn, rather than just slow?</h3>
+      <p>The pace earns its keep. It builds tension or lets a feeling accumulate instead of just passing time.</p>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Do slow burn movies reward multiple viewings?</h3>
+      <p>Usually more than faster films. Once you know where it's going, you notice texture instead of waiting for plot.</p>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Where should someone new to slow cinema start?</h3>
+      <p>Paris, Texas. Its emotional throughline makes the pacing easier to trust than something like The Turin Horse.</p>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Is there a difference between slow cinema and a slow burn thriller?</h3>
+      <p>Some overlap, but a thriller still resolves around suspense. Slow cinema is often less concerned with payoff at all.</p>
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Conclusion</h2>
+      <p>Every film on this list asks for something that is increasingly rare to give, uninterrupted attention. What they offer back is not excitement in the conventional sense but a kind of presence, the feeling of having actually been somewhere for two hours instead of having watched something happen from a distance. That trade is worth making more often than we tend to make it.</p>
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Conclusion</h2>
+      <p>None of the films on this list ask for patience as a formality. They ask for it because there is genuinely nowhere else the feeling they are building toward could live. Cut any of them down and you would still have a story, but you would lose the thing that made sitting through it worth doing in the first place. That is, as far as we can tell, the whole argument for slow cinema, made one film at a time rather than all at once.</p>
     `,
   },
   // Naya blog yahan add karein. Akhri entry ke baad comma (,) zaroor lagayen.
