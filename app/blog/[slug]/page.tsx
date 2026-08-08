@@ -56,7 +56,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
 
       <div className="flex items-center justify-between border-y border-white/12 py-5">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-white/15 to-white/5 border border-white/20 flex items-center justify-center font-display text-sm">
+          <div className="w-10 h-10 rounded-full bg-black/70 border border-white/25 flex items-center justify-center font-display text-sm backdrop-blur-sm">
             IC
           </div>
           <div>
