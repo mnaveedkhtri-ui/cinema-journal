@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     'cinematography',
   ],
   authors: [{ name: 'The Long Take' }],
+  verification: {
+    google: 'wYFUIXoVNRkPCSeAExJZhbNGbE9pcbuFswY8d8GCIdw',
+  },
   openGraph: {
     type: 'website',
     title: 'The Long Take | Slow Cinema Journal & Film Essays',
