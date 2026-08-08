@@ -51,8 +51,6 @@ export const blogPosts: BlogPost[] = [
       <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Is there a difference between slow cinema and a slow burn thriller?</h3>
       <p>Some overlap, but a thriller still resolves around suspense. Slow cinema is often less concerned with payoff at all.</p>
       <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Conclusion</h2>
-      <p>Every film on this list asks for something that is increasingly rare to give, uninterrupted attention. What they offer back is not excitement in the conventional sense but a kind of presence, the feeling of having actually been somewhere for two hours instead of having watched something happen from a distance. That trade is worth making more often than we tend to make it.</p>
-      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Conclusion</h2>
       <p>None of the films on this list ask for patience as a formality. They ask for it because there is genuinely nowhere else the feeling they are building toward could live. Cut any of them down and you would still have a story, but you would lose the thing that made sitting through it worth doing in the first place. That is, as far as we can tell, the whole argument for slow cinema, made one film at a time rather than all at once.</p>
     `,
   },
