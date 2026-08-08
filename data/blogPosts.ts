@@ -5,6 +5,8 @@ export type BlogPost = {
   date: string;
   read: string;
   excerpt: string;
+  image?: string; // NEW — hero image URL (optional)
+  imageAlt?: string; // NEW — alt text (optional, falls back to title)
   content: string; // HTML string, rendered with dangerouslySetInnerHTML
 };
 
@@ -22,6 +24,8 @@ export const blogPosts: BlogPost[] = [
     read: '14 min',
     excerpt:
       'A working list of slow burn films worth the wait, and what patience gives back once you stop resisting it.',
+    image: 'https://picsum.photos/seed/slow-burn-skyline/1600/900.jpg', // placeholder — apni image se replace karein
+    imageAlt: 'Silhouetted towers against a burnt orange sunset sky',
     content: `
       <p>There is a particular kind of restlessness that arrives about twenty minutes into a slow film, a small voice asking when something is going to happen. We have learned, slowly and against our own instincts, to sit with that voice rather than obey it. What follows on the other side of that restlessness is usually the point of the film, not an obstacle standing between you and it.</p>
       <p>This is not a ranking. It is closer to a working notebook, the kind we keep for the Field Guide, except aimed at specific films rather than the elements underneath them. Some of these are famous. A few are not. All of them ask for patience and pay it back with something that a faster film could not give.</p>
