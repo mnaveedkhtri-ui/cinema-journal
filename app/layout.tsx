@@ -48,13 +48,21 @@ export const metadata: Metadata = {
       'Explore the art of slow cinema at The Long Take. Read cinematic essays, film location guides, and visual storytelling notes from independent editors.',
     url: `${baseUrl}/`,
     siteName: 'The Long Take',
-    images: ['https://picsum.photos/seed/hotel-room-tarkovsky/1200/630.jpg'],
+    images: [
+      {
+        url: `${baseUrl}/og-image.png`,
+        width: 1200,
+        height: 630,
+        alt: 'The Long Take — A Cinematic Journal',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'The Long Take | Slow Cinema Journal & Film Essays',
     description:
       'Explore the art of slow cinema at The Long Take. Read cinematic essays, film location guides, and visual storytelling notes from independent editors.',
+    images: [`${baseUrl}/og-image.png`],
   },
 };
 
