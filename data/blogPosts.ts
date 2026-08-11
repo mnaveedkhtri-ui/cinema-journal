@@ -62,104 +62,105 @@ export const blogPosts: BlogPost[] = [
       <p>Some overlap, but a thriller still resolves around suspense. Slow cinema is often less concerned with payoff at all.</p>
     `,
   },
-  {
-    slug: 'what-is-a-long-take-in-film',
+ {
+    slug: 'film-essays',
     tag: 'Craft',
-    title: 'What Is a Long Take in Film? The Shot Behind Our Name',
+    title: 'Film Essays: What They Are and Why They Matter More Than Reviews',
     date: 'Aug 10, 2026',
-    read: '10 min',
+    read: '11 min',
     excerpt:
-      'A long take is a single, uninterrupted shot held far past the point most films would cut. Here is what actually makes one work, and why we named this journal after it.',
-    image: 'https://images.unsplash.com/photo-1635360381874-edd74cbd57f3?q=80&w=1600&auto=format&fit=crop',
-    imageAlt: 'A filmmaker holding a camera steady while recording a continuous shot',
+      'What a film essay actually is, how it differs from a review, and where to start reading and writing one, with real examples, a comparison table, and a practical guide.',
+    image: 'https://images.unsplash.com/photo-1558478551-16a013a18bd8?q=80&w=1600&auto=format&fit=crop',
+    imageAlt: 'A person writing longhand in a notebook at a desk, the way a film essay often begins',
     content: `
-      <p>A long take, sometimes called a continuous shot or a oner, is a single unbroken shot held for a duration far past what conventional editing pace would allow. There is no official stopwatch cutoff that turns a normal shot into a long take. What defines it is intention: the filmmaker chooses not to cut, and everything the scene needs, blocking, movement, performance, has to happen inside that one continuous frame instead of being assembled afterward in an edit bay.</p>
+      <p>A film essay is a piece of writing or video that uses a film, or several films, to explore an idea, rather than simply judge whether the film is good. Where a review answers "should I watch this," a film essay asks "what does this film actually mean, and why." If you have ever finished a piece of film writing and felt like you understood a movie differently than before, you were probably reading a film essay, whether the writer called it that or not.</p>
 
-      <p><strong>In short:</strong> a long take earns its length. It is not simply a shot that runs long, it is a shot where the absence of a cut is doing real work, building tension, tracking a space in full, or refusing to let the audience look away. The rest of this piece looks at where the technique came from, how filmmakers actually pull one off, and a few of the films most worth watching for it. This is also, not coincidentally, where this journal takes its name.</p>
+      <p><strong>In short:</strong> film essays are argument-driven, idea-first writing about cinema. They use a film's craft, history, or imagery as evidence for a larger point, they take real critical positions instead of star ratings, and the best of them work even if you have never seen the film being discussed. The rest of this piece looks at what separates a real film essay from a plot summary, where to start reading them, and how to write one yourself.</p>
 
-      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Long Take vs Long Shot: A Common Mix-Up</h2>
-      <p>These two terms get confused constantly, and they describe completely different things. A long shot refers to camera distance, how far the camera sits from its subject. A long take refers to duration, how much time passes before the shot cuts. A film can have a long take that is also a close-up, and a long shot that lasts two seconds. According to <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="https://en.wikipedia.org/wiki/Long_take" target="_blank" rel="noopener noreferrer">Wikipedia's entry on the long take</a>, the technique's length was originally limited by how much film a camera magazine could physically hold, not by any creative choice, before digital video removed that ceiling almost entirely.</p>
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Film Essay vs Film Review: The Real Difference</h2>
+      <p>A review is written close to a film's release, aimed at someone deciding whether to see it, and structured around a recommendation. A film essay can be written about a film that came out fifty years ago, aimed at someone who has often already seen it, and structured around an argument rather than a verdict. This is why film essays age differently than reviews, and why the two forms are frequently confused despite doing almost opposite jobs.</p>
 
       <div style="overflow-x:auto; margin:2rem 0;">
         <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
           <thead>
             <tr style="border-bottom:1px solid rgba(255,255,255,0.2);">
               <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#f5f5f5;">&nbsp;</th>
-              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#c9a876;">Long Take</th>
-              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#f5f5f5;">Long Shot</th>
+              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#c9a876;">Film Essay</th>
+              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#f5f5f5;">Film Review</th>
             </tr>
           </thead>
           <tbody>
             <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
-              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.6);">What it measures</td>
-              <td style="padding:0.85rem 1rem;">Duration, how long the shot runs before cutting</td>
-              <td style="padding:0.85rem 1rem;">Distance, how far the camera sits from its subject</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.6);">Main goal</td>
+              <td style="padding:0.85rem 1rem;">Explores an idea or argument using the film as evidence</td>
+              <td style="padding:0.85rem 1rem;">Recommends whether to watch the film</td>
             </tr>
             <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
-              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.6);">Also known as</td>
-              <td style="padding:0.85rem 1rem;">Continuous shot, oner, sequence shot</td>
-              <td style="padding:0.85rem 1rem;">Wide shot, establishing shot</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.6);">Typical timing</td>
+              <td style="padding:0.85rem 1rem;">Can be written any time, often years after release</td>
+              <td style="padding:0.85rem 1rem;">Written close to a film's release date</td>
             </tr>
             <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
-              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.6);">Can it be a close-up?</td>
-              <td style="padding:0.85rem 1rem;">Yes, a long take can hold on any framing at all</td>
-              <td style="padding:0.85rem 1rem;">No, a long shot is wide by definition</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.6);">Assumes you've seen it?</td>
+              <td style="padding:0.85rem 1rem;">Often yes, spoilers are usually fair game</td>
+              <td style="padding:0.85rem 1rem;">Usually no, stays spoiler-light</td>
             </tr>
             <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
-              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.6);">Classic example</td>
-              <td style="padding:0.85rem 1rem;">The opening crane shot in Touch of Evil (1958)</td>
-              <td style="padding:0.85rem 1rem;">The desert vistas in Lawrence of Arabia (1962)</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.6);">Structure</td>
+              <td style="padding:0.85rem 1rem;">Built around a thesis or argument</td>
+              <td style="padding:0.85rem 1rem;">Built around a verdict or rating</td>
             </tr>
             <tr>
-              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.6);">Primary purpose</td>
-              <td style="padding:0.85rem 1rem;">Preserving unbroken time and tension</td>
-              <td style="padding:0.85rem 1rem;">Establishing scale and geography</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.6);">Shelf life</td>
+              <td style="padding:0.85rem 1rem;">Often stays relevant for years or decades</td>
+              <td style="padding:0.85rem 1rem;">Usually loses relevance once a film leaves theaters</td>
             </tr>
           </tbody>
         </table>
       </div>
 
-      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Where the Technique Comes From</h2>
-      <p>The long take was not born as an artistic statement. Early cinema had no editing at all, a single reel simply ran until it ran out, so the earliest films were, by necessity, one continuous take. As editing developed as a craft through the 1920s and 1930s, the long take slowly became a deliberate choice rather than a limitation.</p>
-      <p>The film theorist André Bazin was the technique's most influential early champion, arguing that the long take, paired with deep focus, preserved a kind of cinematic reality that heavy editing destroyed. <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="https://filmglossary.ccnmtl.columbia.edu/term/long-take" target="_blank" rel="noopener noreferrer">Columbia University's film glossary</a> traces this directly through Jean Renoir and Orson Welles, whose deep-focus long takes in Citizen Kane became a reference point for decades of filmmakers who followed. Alfred Hitchcock pushed the format's physical limits in Rope in 1948, structuring the entire film around takes as long as ten minutes, the maximum a single roll of 35mm film could hold at the time.</p>
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">What Actually Makes Something a Film Essay</h2>
+      <p>Not every piece of writing about a movie is a film essay. A plot recap is not one. A star rating with three paragraphs of justification is closer to a review than an essay. What separates the essay form is that it has a thesis, a specific claim about the film, the filmmaker, or cinema itself, that the rest of the piece exists to support.</p>
+      <p>This is closer to how we approach the pieces in our own <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog">dispatches</a>, including our look at <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog/the-hotel-room-as-a-unit-of-time">hotel rooms as a unit of cinematic time</a>, which is not really about hotels at all. It uses a recurring location as a lens to talk about duration and interior space in Tarkovsky and Chris Marker's work. That is the essay move: pick something concrete and specific, then use it to say something bigger.</p>
 
       <figure class="article-figure">
-        <img src="https://images.unsplash.com/photo-1640043889108-648c3d4d2d94?q=80&w=1400&auto=format&fit=crop" alt="Close-up of a cinema camera lens, representing the continuous framing of a long take" />
-        <figcaption>Every long take lives or dies by what stays inside this frame for as long as the shot runs.</figcaption>
+        <img src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?q=80&w=1400&auto=format&fit=crop" alt="An open book photographed from above, its pages fanned out, evoking the tradition of written film criticism" />
+        <figcaption>The film essay grew out of the same tradition as literary criticism, an argument built one page at a time.</figcaption>
       </figure>
 
-      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Why Directors Choose Not to Cut</h2>
-      <p>A cut is useful precisely because it hides things. It lets a film skip time, change location, or reset an actor's position without the audience noticing the seam. A long take gives up all of that convenience on purpose, and it does so for a specific reason each time.</p>
-      <p>In action or tension, a long take denies the audience the relief a cut usually provides, which is why it shows up so often in horror and thriller filmmaking. In drama, it keeps a conversation unbroken in a way that mirrors how conversations actually happen in real life, without the invisible edits our own memory usually smooths over. In a film essay on duration, which is really what a long take is asking you to sit with, our own <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/guide">Field Guide chapter on the subject</a> goes further into why extended time on screen changes how an audience processes what they are watching.</p>
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Where the Modern Film Essay Comes From</h2>
+      <p>Written film criticism with real intellectual ambition goes back to critics like André Bazin and the writers at Cahiers du Cinéma in the 1950s, who were arguing for directors as authors long before that idea was common. Roger Ebert brought a version of that seriousness to a mainstream American audience for decades, writing reviews that frequently turned into something closer to essays by their second half.</p>
+      <p>The video essay, a more recent form built on top of this tradition, uses the film's own images and sound as its material instead of only describing them in prose. <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="https://www.bfi.org.uk/sight-and-sound/articles/" target="_blank" rel="noopener noreferrer">Sight & Sound's ongoing coverage of film criticism</a> is one of the more reliable places to see both traditions, written and video, sitting side by side.</p>
 
-      <div class="pullquote">A cut is an editor's decision made in advance. A long take is a bet made live, on set, with no second chance to fix it in the room where it happens.</div>
+      <div class="pullquote">A review tells you whether to spend two hours on a film. A film essay tells you what to do with the two hours after.</div>
 
-      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">How a Long Take Actually Gets Made</h2>
-      <p>Executing a long take is closer to live theater than typical filmmaking. Every mark, light cue, and piece of choreography has to work in one continuous pass, because there is no cut to hide a mistake behind. This usually means:</p>
-      <p><strong>Extensive rehearsal.</strong> Cast and crew often block and rehearse a long take dozens of times before it is ever filmed, since a single error late in a ten-minute take means starting completely over.</p>
-      <p><strong>Camera support built for movement.</strong> Steadicams, dollies on tracks, and increasingly drones let the camera travel through a space smoothly without visible shake, since a static long take is a much rarer choice than a moving one.</p>
-      <p><strong>Hidden cuts, when the illusion demands it.</strong> Many famous one-shot films, including 1917, are not literally a single unbroken take. They use invisible cuts, hidden behind a passing wall or a whip pan, stitched together digitally so the audience never notices the seam. The illusion of a long take can matter as much as the technical reality of one.</p>
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Essential Film Essays and Essayists to Start With</h2>
+      <p>If you want to read film essays rather than just watch films, a few starting points tend to hold up. Roger Ebert's longer pieces, especially his "Great Movies" series, are a good entry because they were written for a general audience without losing analytical depth. Susan Sontag's writing on cinema treats film as seriously as any other art form, which was not a given when she was writing. The Criterion Collection's essay series, published alongside their physical releases, consistently pairs serious film scholars and working critics with specific films in a way that rewards rereading.</p>
+      <p><a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="https://www.criterion.com/current/category/2-essays" target="_blank" rel="noopener noreferrer">Criterion's Current essays section</a> is one of the most consistent modern archives of this kind of writing, and it is free to browse without a subscription.</p>
+      <p>On our own end, our recent piece on <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog/best-slow-burn-movies">slow burn movies</a> tries to work the same way, using pacing across several films as the throughline instead of just recommending titles. Our essay on <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog/color-scripts-and-the-long-memory">color scripts and the long memory of a film</a> does something similar with Pixar's use of color as structure rather than decoration, and our piece on <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog/what-is-a-long-take-in-film">what a long take actually is</a> uses one shot type as a lens on duration itself.</p>
 
-      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Long Takes Worth Watching For</h2>
-      <p>Orson Welles opens Touch of Evil with a three-and-a-half-minute crane shot that follows a car across a border town toward an explosion, establishing an entire world before a single cut arrives. Alfonso Cuarón's Children of Men contains a combat sequence shot to look like one continuous take, blood spatter and all, that puts the audience inside the chaos rather than assembling it from safer angles. Sam Mendes built all of 1917 around the illusion of two continuous takes across an entire feature. For slower, more contemplative uses of the same idea, our own piece on <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog/the-best-slow-burn-movies-and-why-we-return-to-them">slow burn films worth the wait</a> covers several directors, Tarkovsky and Béla Tarr among them, who use extended duration for stillness rather than spectacle.</p>
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">How to Write Your Own Film Essay</h2>
+      <p>Start with a claim, not a film. "I liked this movie" is not a thesis. "This film uses silence the way most films use a score" is. Once you have a real claim, rewatch the film specifically looking for evidence, scenes, shots, cuts, sound choices, that either support or complicate what you are arguing.</p>
+      <p>Keep the plot summary minimal. Assume your reader has either seen the film or does not need the full story to follow your argument. Most weak film writing spends three paragraphs on synopsis and one on actual analysis. Reverse that ratio.</p>
+      <p>Finally, be willing to commit to a reading of a film even when that reading is arguable, because a cautious essay that hedges every sentence rarely says anything worth remembering. If you want a sense of how we think about this kind of patient, idea-first writing more broadly, our <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/about">About page</a> lays out the editorial philosophy behind this journal in more detail.</p>
 
-      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Why We Named This Journal After It</h2>
-      <p>The long take, to us, is less a technique than a stance. It is a refusal to cut away from something before you have actually finished looking at it, which is close to the whole editorial philosophy behind this journal. Our <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/about">About page</a> goes further into that idea, and our piece on <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog/color-scripts-and-the-long-memory">color scripts and the long memory of a film</a> is another example of the same instinct, applied to a different part of the frame.</p>
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Common Mistakes That Turn an Essay Into a Recap</h2>
+      <p>The most common failure is confusing description with analysis. Describing what happens in a scene is not the same as explaining why it matters. A second common mistake is trying to cover an entire film's themes in one essay instead of picking one thread and following it all the way through. Depth on one idea almost always beats a shallow pass over five.</p>
 
       <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Conclusion</h2>
-      <p>A long take is not a gimmick, even though it is sometimes used like one. At its best, it is a director trading the safety of the edit for something a cut cannot give: unbroken time, held in front of an audience long enough that they stop watching a performance and start feeling like they are inside the room where it happened. That trade is the entire case for the technique, and it is the reason the shot has outlasted almost a century of changing fashions in how films get made.</p>
+      <p>A film essay earns its length the same way a strong argument does anywhere else: by committing to a specific claim and following it with real evidence from the film itself, rather than settling for a summary dressed up as analysis. The form rewards patience on both ends, from the writer willing to rewatch a scene until they understand why it works, and from the reader willing to follow an argument about a film they may have seen years ago. That trade is what separates a film essay from everything else written about movies, and it is why the best examples of the form outlast the news cycle a review is built to serve.</p>
 
       <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">A Few Questions We Get Asked</h2>
-      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">How long does a shot have to be before it counts as a long take?</h3>
-      <p>There is no fixed number. Some definitions use 40 seconds as a rough threshold, but what actually matters is whether the shot runs well past the film's normal editing rhythm on purpose.</p>
-      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Are films like 1917 really shot in one continuous take?</h3>
-      <p>Mostly not literally. Most modern one-shot films use hidden cuts disguised behind objects, walls, or darkness, digitally stitched together so the seam is invisible to the audience.</p>
-      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">What equipment do filmmakers use for a moving long take?</h3>
-      <p>Steadicams and dolly tracks are the most common tools, with gimbals and drones increasingly used for takes that need to move through more complex or open spaces.</p>
-      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Is a long take the same thing as a sequence shot?</h3>
-      <p>Close, but not identical. A sequence shot is a long take that specifically contains what would normally be several separate scenes or story beats, all captured without a cut.</p>
-      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Where should I start if I want to see more long takes done well?</h3>
-      <p>Touch of Evil's opening shot and Children of Men are two of the most studied examples. Our <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog">other dispatches</a> and <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/guide">Field Guide</a> both circle back to duration as a subject fairly often.</p>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Is a film essay the same as a film review?</h3>
+      <p>No. A review is built around a recommendation, usually written close to a film's release. A film essay is built around an argument or idea, and it can be written about a film from any era, since its value does not depend on helping someone decide whether to watch something new.</p>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Do I need to be a film critic to write a film essay?</h3>
+      <p>No. Some of the most widely read film essays are written by novelists, academics, and filmmakers rather than professional critics. What matters is having a specific, defensible claim and the willingness to support it with real detail from the film.</p>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">How long should a film essay be?</h3>
+      <p>There is no fixed length. Some strong film essays run 800 words, others run 5,000. Length should follow the complexity of the argument, not the other way around. A single, sharp idea does not need padding to feel substantial.</p>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">What is the difference between a film essay and a video essay?</h3>
+      <p>A video essay makes its argument using the film's own footage, sound, and editing as primary material, alongside narration or text. A written film essay makes the same kind of argument using prose alone. Both forms share the same underlying goal: using specific evidence from a film to support a larger claim about it.</p>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Where can I read more film essays like this one?</h3>
+      <p>Our <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog">full archive of dispatches</a> collects more essays in this style, and our <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/guide">Field Guide</a> covers the individual craft elements, duration, light, sound, and framing, that these essays tend to draw on.</p>
     `,
   },
 ];
