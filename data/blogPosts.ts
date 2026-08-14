@@ -163,4 +163,114 @@ export const blogPosts: BlogPost[] = [
       <p>Our <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog">full archive of dispatches</a> collects more essays in this style, and our <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/guide">Field Guide</a> covers the individual craft elements, duration, light, sound, and framing, that these essays tend to draw on.</p>
     `,
   },
+  {
+    slug: 'the-long-take',
+    tag: 'Craft',
+    title: "The Long Take: Inside Cinema's Most Celebrated Continuous Shots",
+    date: 'Aug 10, 2026',
+    read: '12 min',
+    excerpt:
+      'A closer look at the long take through the specific scenes that made it famous, from Touch of Evil to Children of Men, and what each one risked to get the shot.',
+    image: 'https://images.unsplash.com/photo-1760472915957-43c64f62adeb?q=80&w=1600&auto=format&fit=crop',
+    imageAlt: 'A long, symmetrical hallway stretching into the distance, the kind of space a tracking long take moves through',
+    content: `
+      <p>The long take gets discussed constantly as a concept, duration, patience, the refusal to cut, but the idea only really lands once you look at specific examples of it working. This piece is that closer look. Rather than define the term again, it walks through five of the shots most responsible for the long take's reputation, what each one physically required to pull off, and why it still gets studied decades later.</p>
+
+      <p><strong>In short:</strong> the long take's power rarely comes from duration alone. It comes from what a filmmaker risks by refusing to cut, a single mistake meaning the whole take starts over, a crew of dozens having to hit their marks in perfect sequence, an actor carrying an entire scene's tension without the safety net an edit usually provides. The five shots below, spanning nearly seventy years of filmmaking, show that risk paying off in very different ways.</p>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Touch of Evil (1958): The Shot That Started the Conversation</h2>
+      <p>Orson Welles opens Touch of Evil with a three-and-a-half-minute crane shot that follows a car carrying a bomb across a Mexican border town, weaving between pedestrians, vehicles, and a separate couple on foot, before the bomb finally detonates. No cuts interrupt the tension building underneath the shot's apparent casualness. It remains the reference point almost every later long take gets compared to, not because it was the first continuous shot in film history, but because of how deliberately it used the unbroken camera to build dread the audience could not look away from.</p>
+
+      <figure class="article-figure">
+        <img src="https://images.unsplash.com/photo-1668509281339-b3ca5a8e359e?q=80&w=1400&auto=format&fit=crop" alt="A car's headlights cutting through darkness on a night road, echoing the ticking-bomb tension of the Touch of Evil opening shot" />
+        <figcaption>Touch of Evil's three-minute opening never leaves the car carrying the bomb, and the camera's refusal to cut away is the entire source of its tension.</figcaption>
+      </figure>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Goodfellas (1990): The Copacabana Walk</h2>
+      <p>Martin Scorsese's three-minute Steadicam shot following Henry Hill and Karen through the back entrance of the Copacabana nightclub is one of the few shots in film history identifiable by name alone. According to <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="https://filmmakermagazine.com/93916-steadicam-operator-larry-mcconkey-on-filming-the-goodfellas-copacabana-tracking-shot-and-the-early-days-of-steadicam/" target="_blank" rel="noopener noreferrer">Steadicam operator Larry McConkey's own account</a> of filming it, the shot was in the can before lunch on the day it was scheduled, despite the enormous choreography required to move two actors, dozens of extras, and a moving camera through a real kitchen, hallway, and dining room without a single visible seam. The point of the shot is not just technical bravado. It puts the audience physically inside Henry's rising excitement, so that his charm and access feel earned rather than described.</p>
+
+      <figure class="article-figure">
+        <img src="https://images.unsplash.com/photo-1682130301125-5b63bbf93241?q=80&w=1400&auto=format&fit=crop" alt="A black and white film clapperboard, the marker that ends the preparation and begins an unbroken take" />
+        <figcaption>Everything about a long take has to be right before the clapperboard closes, because there is no second chance hidden inside an edit.</figcaption>
+      </figure>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Children of Men (2006): Six Minutes Inside a War Zone</h2>
+      <p>Alfonso Cuarón and cinematographer Emmanuel Lubezki built two of the film's major set pieces as unbroken travelling shots, an ambush filmed from inside a moving car using a custom rig, and a six-minute escape through a refugee camp under siege. <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="https://www.bfi.org.uk/features/children-men-alfonso-cuaron" target="_blank" rel="noopener noreferrer">The BFI's account of the production</a> notes that the camp sequence took almost two weeks to choreograph, and was nearly ruined at the last minute when fake blood splashed onto the lens mid-shot. What makes the sequence work is not spectacle for its own sake. The unbroken camera refuses to let the audience look away from the chaos the way a cut would, which is exactly the point of a film about a crumbling world nobody gets to opt out of watching.</p>
+
+      <div class="pullquote">Every long take on this list is, underneath the technical achievement, an argument that some moments lose meaning the instant you cut away from them.</div>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Rope (1948): The Illusion of No Cuts at All</h2>
+      <p>Alfred Hitchcock structured his entire film around the idea of one continuous take, though the physical limits of 35mm film magazines meant no single roll could run longer than about ten minutes. Hitchcock disguised his cuts by having the camera push into a dark surface, an actor's back, a piece of furniture, at the end of each reel, then resuming from that same dark frame on the next roll. The illusion mattered more to Hitchcock than the literal unbroken shot, an idea that modern one-shot films like 1917 borrowed directly, decades later, using digital tools to hide the same kind of seam.</p>
+
+      <figure class="article-figure">
+        <img src="https://images.unsplash.com/photo-1495121553079-4c61bcce1894?q=80&w=1400&auto=format&fit=crop" alt="A vintage black and silver 35mm film camera, the kind of equipment whose ten-minute film reels shaped how Rope was structured" />
+        <figcaption>Rope's illusion of one continuous take was built around a limit this kind of camera imposed: roughly ten minutes of film per reel.</figcaption>
+      </figure>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Quick Comparison: Five Long Takes Worth Knowing</h2>
+      <div style="overflow-x:auto; margin:2rem 0;">
+        <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+          <thead>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.2);">
+              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#c9a876;">Film</th>
+              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#f5f5f5;">Director</th>
+              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#f5f5f5;">Approx. Length</th>
+              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#f5f5f5;">What It's Known For</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem;">Touch of Evil (1958)</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.7);">Orson Welles</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.7);">~3.5 minutes</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.7);">The opening crane shot that defined the form</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem;">Rope (1948)</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.7);">Alfred Hitchcock</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.7);">Full feature, hidden cuts</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.7);">The illusion of one continuous take</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem;">Goodfellas (1990)</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.7);">Martin Scorsese</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.7);">~3 minutes</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.7);">The Copacabana Steadicam walk</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem;">Children of Men (2006)</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.7);">Alfonso Cuarón</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.7);">~6 minutes</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.7);">The refugee camp escape under fire</td>
+            </tr>
+            <tr>
+              <td style="padding:0.85rem 1rem;">1917 (2019)</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.7);">Sam Mendes</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.7);">Full feature, hidden cuts</td>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.7);">Building an entire war film around the illusion</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Why These Shots Still Get Studied</h2>
+      <p>What connects all five is not length. It is that each director chose the unbroken shot because a cut would have let the audience off the hook, of tension, of complicity, of simply being present for something rather than being shown a version of it assembled afterward. If you want the more technical grounding behind the format itself, our companion piece on <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog/what-is-a-long-take-in-film">what a long take actually is</a> covers the terminology and history in more depth. Our <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/guide">Field Guide</a> also has a working chapter on duration as a craft element more broadly, which is really what all five of these shots are arguments for.</p>
+      <p>If this kind of scene-level, argument-driven writing is what you come to this journal for, our piece on <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog/film-essays">what makes something a film essay</a> explains the approach in more detail, and our list of <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog/best-slow-burn-movies">slow burn films worth the wait</a> covers a related but distinct use of extended time on screen.</p>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Conclusion</h2>
+      <p>None of these five shots are remembered because they simply ran long. They are remembered because the length was the argument, a bet that an audience held inside a moment without escape would feel something a series of cuts could never produce. That bet does not always pay off, plenty of long takes exist purely as technical showreels with nothing underneath them, but when it does, as it does in all five films above, the result outlasts the trend that made it briefly fashionable. That is the actual case for the long take, made one continuous shot at a time.</p>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">A Few Questions We Get Asked</h2>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">What is the longest true long take in a mainstream film?</h3>
+      <p>Russian Ark (2002) is filmed as a single, genuine unbroken take running the entire 96-minute film, making it one of the most extreme examples on record, well beyond the shorter set-piece long takes discussed above.</p>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Why did Goodfellas' Copacabana shot need a Steadicam specifically?</h3>
+      <p>A Steadicam lets an operator walk through tight, uneven spaces like a kitchen corridor while keeping the image smooth, something a traditional dolly on tracks could not physically manage in that location.</p>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Are hidden-cut long takes, like in 1917, less impressive than a true single take?</h3>
+      <p>Not necessarily less impressive, just differently difficult. Hiding a cut convincingly, especially across an entire feature, requires its own precise choreography and digital work, even if it is not a literal unbroken shot.</p>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Do long takes cost more to film than standard coverage?</h3>
+      <p>Often yes, in rehearsal time specifically, since a long take usually requires far more run-throughs before filming than a scene that will be assembled from multiple angles in the edit.</p>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Where should I start if I want to study long takes in more depth?</h3>
+      <p>Touch of Evil and Goodfellas are the two most written-about examples and a strong starting point. Our <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog">full archive of dispatches</a> and <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/about">About page</a> go further into why we keep returning to this particular technique.</p>
+    `,
+  },
 ];
