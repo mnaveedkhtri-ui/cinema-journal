@@ -182,7 +182,7 @@ export const blogPosts: BlogPost[] = [
       <p>Orson Welles opens Touch of Evil with a three-and-a-half-minute crane shot that follows a car carrying a bomb across a Mexican border town, weaving between pedestrians, vehicles, and a separate couple on foot, before the bomb finally detonates. No cuts interrupt the tension building underneath the shot's apparent casualness. It remains the reference point almost every later long take gets compared to, not because it was the first continuous shot in film history, but because of how deliberately it used the unbroken camera to build dread the audience could not look away from.</p>
 
       <figure class="article-figure">
-        <img src="https://images.unsplash.com/photo-1668509281339-b3ca5a8e359e?q=80&w=1400&h=788&auto=format&fit=crop&crop=entropy" alt="A car's headlights cutting through darkness on a night road, echoing the ticking-bomb tension of the Touch of Evil opening shot" width="1400" height="788" loading="lazy" decoding="async" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:4px;" />
+        <img src="https://images.unsplash.com/photo-1763313299304-606adcbcc965?q=80&w=1400&h=788&auto=format&fit=crop&crop=entropy" alt="A close-up of a car's illuminated headlights glowing in the darkness at night, echoing the ticking-bomb tension of the Touch of Evil opening shot" width="1400" height="788" loading="lazy" decoding="async" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:4px;" />
         <figcaption>Touch of Evil's three-minute opening never leaves the car carrying the bomb, and the camera's refusal to cut away is the entire source of its tension.</figcaption>
       </figure>
 
