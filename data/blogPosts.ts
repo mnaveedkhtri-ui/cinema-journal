@@ -163,7 +163,7 @@ export const blogPosts: BlogPost[] = [
       <p>Our <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog">full archive of dispatches</a> collects more essays in this style, and our <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/guide">Field Guide</a> covers the individual craft elements, duration, light, sound, and framing, that these essays tend to draw on.</p>
     `,
   },
-  {
+{
     slug: 'the-long-take',
     tag: 'Craft',
     title: "The Long Take: Inside Cinema's Most Celebrated Continuous Shots",
@@ -171,7 +171,7 @@ export const blogPosts: BlogPost[] = [
     read: '12 min',
     excerpt:
       'A closer look at the long take through the specific scenes that made it famous, from Touch of Evil to Children of Men, and what each one risked to get the shot.',
-    image: 'https://images.unsplash.com/photo-1760472915957-43c64f62adeb?q=80&w=1600&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1760472915957-43c64f62adeb?q=80&w=1600&h=900&auto=format&fit=crop&crop=entropy',
     imageAlt: 'A long, symmetrical hallway stretching into the distance, the kind of space a tracking long take moves through',
     content: `
       <p>The long take gets discussed constantly as a concept, duration, patience, the refusal to cut, but the idea only really lands once you look at specific examples of it working. This piece is that closer look. Rather than define the term again, it walks through five of the shots most responsible for the long take's reputation, what each one physically required to pull off, and why it still gets studied decades later.</p>
@@ -182,7 +182,7 @@ export const blogPosts: BlogPost[] = [
       <p>Orson Welles opens Touch of Evil with a three-and-a-half-minute crane shot that follows a car carrying a bomb across a Mexican border town, weaving between pedestrians, vehicles, and a separate couple on foot, before the bomb finally detonates. No cuts interrupt the tension building underneath the shot's apparent casualness. It remains the reference point almost every later long take gets compared to, not because it was the first continuous shot in film history, but because of how deliberately it used the unbroken camera to build dread the audience could not look away from.</p>
 
       <figure class="article-figure">
-        <img src="https://images.unsplash.com/photo-1668509281339-b3ca5a8e359e?q=80&w=1400&auto=format&fit=crop" alt="A car's headlights cutting through darkness on a night road, echoing the ticking-bomb tension of the Touch of Evil opening shot" />
+        <img src="https://images.unsplash.com/photo-1668509281339-b3ca5a8e359e?q=80&w=1400&h=788&auto=format&fit=crop&crop=entropy" alt="A car's headlights cutting through darkness on a night road, echoing the ticking-bomb tension of the Touch of Evil opening shot" width="1400" height="788" loading="lazy" decoding="async" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:4px;" />
         <figcaption>Touch of Evil's three-minute opening never leaves the car carrying the bomb, and the camera's refusal to cut away is the entire source of its tension.</figcaption>
       </figure>
 
@@ -190,7 +190,7 @@ export const blogPosts: BlogPost[] = [
       <p>Martin Scorsese's three-minute Steadicam shot following Henry Hill and Karen through the back entrance of the Copacabana nightclub is one of the few shots in film history identifiable by name alone. According to <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="https://filmmakermagazine.com/93916-steadicam-operator-larry-mcconkey-on-filming-the-goodfellas-copacabana-tracking-shot-and-the-early-days-of-steadicam/" target="_blank" rel="noopener noreferrer">Steadicam operator Larry McConkey's own account</a> of filming it, the shot was in the can before lunch on the day it was scheduled, despite the enormous choreography required to move two actors, dozens of extras, and a moving camera through a real kitchen, hallway, and dining room without a single visible seam. The point of the shot is not just technical bravado. It puts the audience physically inside Henry's rising excitement, so that his charm and access feel earned rather than described.</p>
 
       <figure class="article-figure">
-        <img src="https://images.unsplash.com/photo-1682130301125-5b63bbf93241?q=80&w=1400&auto=format&fit=crop" alt="A black and white film clapperboard, the marker that ends the preparation and begins an unbroken take" />
+        <img src="https://images.unsplash.com/photo-1682130301125-5b63bbf93241?q=80&w=1400&h=788&auto=format&fit=crop&crop=entropy" alt="A black and white film clapperboard, the marker that ends the preparation and begins an unbroken take" width="1400" height="788" loading="lazy" decoding="async" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:4px;" />
         <figcaption>Everything about a long take has to be right before the clapperboard closes, because there is no second chance hidden inside an edit.</figcaption>
       </figure>
 
@@ -203,7 +203,7 @@ export const blogPosts: BlogPost[] = [
       <p>Alfred Hitchcock structured his entire film around the idea of one continuous take, though the physical limits of 35mm film magazines meant no single roll could run longer than about ten minutes. Hitchcock disguised his cuts by having the camera push into a dark surface, an actor's back, a piece of furniture, at the end of each reel, then resuming from that same dark frame on the next roll. The illusion mattered more to Hitchcock than the literal unbroken shot, an idea that modern one-shot films like 1917 borrowed directly, decades later, using digital tools to hide the same kind of seam.</p>
 
       <figure class="article-figure">
-        <img src="https://images.unsplash.com/photo-1495121553079-4c61bcce1894?q=80&w=1400&auto=format&fit=crop" alt="A vintage black and silver 35mm film camera, the kind of equipment whose ten-minute film reels shaped how Rope was structured" />
+        <img src="https://images.unsplash.com/photo-1495121553079-4c61bcce1894?q=80&w=1400&h=788&auto=format&fit=crop&crop=entropy" alt="A vintage black and silver 35mm film camera, the kind of equipment whose ten-minute film reels shaped how Rope was structured" width="1400" height="788" loading="lazy" decoding="async" style="width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:4px;" />
         <figcaption>Rope's illusion of one continuous take was built around a limit this kind of camera imposed: roughly ten minutes of film per reel.</figcaption>
       </figure>
 
