@@ -12,6 +12,8 @@ Built with **Next.js 14 (App Router)**, Tailwind CSS, and structured JSON-LD SEO
 - **Film Notebook:** [Best Slow Burn Movies and Why We Keep Returning](https://cinema-journal.vercel.app/blog/the-best-slow-burn-movies-and-why-we-return-to-them)
 - **Critical Craft:** [Film Essays: What They Are and Why They Matter](https://cinema-journal.vercel.app/blog/film-essays)
 - **Visual Technique:** [The Long Take: Inside Cinema's Most Celebrated Continuous Shots](https://cinema-journal.vercel.app/blog/the-long-take)
+- **Ending Explained:** [Shutter Island Ending Explained: Was Teddy Daniels Insane or Lobotomized?](https://cinema-journal.vercel.app/blog/shutter-island-ending-explained)
+- **Curated Recommendations:** [12 Mind-Bending Psychological Thrillers Like Shutter Island](https://cinema-journal.vercel.app/blog/movies-like-shutter-island)
 
 ---
 

@@ -417,4 +417,240 @@ export const blogPosts: BlogPost[] = [
       <p>Touch of Evil and Goodfellas are the two most written-about examples and a strong starting point. Our <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog">full archive of dispatches</a> and <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/about">About page</a> go further into why we keep returning to this particular technique.</p>
     `,
   },
+  {
+    slug: 'shutter-island-ending-explained',
+    tag: 'Ending Explained',
+    title: 'Shutter Island Ending Explained: Was Teddy Daniels Insane or Lobotomized?',
+    date: 'Oct 27, 2026',
+    read: '14 min',
+    excerpt:
+      'A comprehensive breakdown of Shutter Island\'s twist ending: decoding Teddy Daniels\' final words, Dr. Cawley\'s radical role-play experiment, all hidden visual clues, and the tragic reality of Andrew Laeddis.',
+    image: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop',
+    imageAlt: 'A solitary lighthouse shrouded in dense coastal fog at twilight, evoking Ashecliffe Hospital on Shutter Island',
+    content: `
+      <p>Martin Scorsese\'s 2010 psychological masterpiece <em>Shutter Island</em> remains one of the most debated thrillers in cinematic history. On the surface, the narrative follows US Marshal Edward "Teddy" Daniels (Leonardo DiCaprio) and his new partner Chuck Aule (Mark Ruffalo) as they investigate the mysterious disappearance of patient Rachel Solando from Ashecliffe Hospital for the criminally insane. However, the final fifteen minutes dismantle everything the spectator has witnessed, culminating in a devastating epiphany that recontextualizes every single frame of the film.</p>
+
+      <p>Was Teddy Daniels genuinely an inmate named Andrew Laeddis who suffered a catastrophic psychotic break? Or was he a sane federal investigator systematically drugged, gaslit, and trapped inside a sinister government conspiracy? Below is the definitive, clue-by-clue analysis of the film\'s climax, the historical medicine behind Dr. Cawley\'s radical therapy, and the true meaning of Teddy\'s immortal final question.</p>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">The Final Line Decoded: Did Andrew Choose a Voluntary Lobotomy?</h2>
+      <p>The philosophical emotional core of <em>Shutter Island</em> rests upon its final spoken sentence. Sitting on the hospital steps next to Dr. Sheehan (disguised as Chuck), Teddy looks out toward the lawn and mutters:</p>
+
+      <div class="pullquote">"Which would be worse—to live as a monster, or to die as a good man?"</div>
+
+      <p>This single question answers the entire central mystery of the film. Teddy is <strong>not</strong> relapsing into insanity. On the contrary, he has fully regained his sanity. He knows that his real name is Andrew Laeddis. He remembers that his manic-depressive wife Dolores (Michelle Williams) drowned their three children in the lake, and that he subsequently shot her in an agony of grief and denial.</p>
+
+      <p>Andrew understands that if he acknowledges his true identity, he must spend the rest of his life bearing the unbearable psychic trauma of his family\'s annihilation. Furthermore, Dr. Cawley (Ben Kingsley) warned him that if this radical role-play treatment failed, the hospital board and Dr. Naehring (Max von Sydow) would mandate a transorbital lobotomy. By feigning a relapse—calling Sheehan "Chuck" and talking about escaping the island—Andrew knowingly orchestrates his own lobotomy. He actively chooses surgical obliteration as "Teddy Daniels, the good man" rather than living in agony as "Andrew Laeddis, the monster." As he stands and walks calmly toward the orderlies and the lighthouse, Sheehan\'s horrified expression confirms that the doctor recognizes Andrew\'s conscious sacrifice.</p>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">The 5 Hidden Clues You Only Notice on a Rewatch</h2>
+      <p>Scorsese and screenwriter Laeta Kalogridis planted precise visual and auditory signposts throughout the runtime proving that Teddy was patient 67 all along:</p>
+
+      <div style="overflow-x:auto; margin:2rem 0;">
+        <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+          <thead>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.2);">
+              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#c9a876;">Visual Clue</th>
+              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#f5f5f5;">What Teddy Sees</th>
+              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#f5f5f5;">The Psychological Reality</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.6);">The Disappearing Glass</td>
+              <td style="padding:0.85rem 1rem;">Mrs. Kearns drinks from an invisible glass, then sets down a real glass.</td>
+              <td style="padding:0.85rem 1rem;">Teddy has a severe trauma-induced phobia of water (which killed his children). His fractured psyche erases water from his visual field.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.6);">Chuck\'s Gun Holster</td>
+              <td style="padding:0.85rem 1rem;">Chuck struggles clumsily to unholster his firearm when arriving at the gates.</td>
+              <td style="padding:0.85rem 1rem;">Chuck is not a US Marshal; he is Dr. Lester Sheehan, a psychiatrist who has never carried a sidearm in his professional life.</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.6);">Fire vs. Water Motifs</td>
+              <td style="padding:0.85rem 1rem;">Fire accompanies Teddy\'s delusions; water accompanies reality.</td>
+              <td style="padding:0.85rem 1rem;">Fire represents Teddy\'s fabricated reality (the match in Ward C, the cave fire). Water represents truth (the lake, the rainstorms, the sea).</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.6);">The Guard Behavior</td>
+              <td style="padding:0.85rem 1rem;">Guards stand tense, guns gripped with white knuckles around Teddy.</td>
+              <td style="padding:0.85rem 1rem;">They are not nervous about an outside inspector; they are terrified because the island\'s most violent patient is roaming free.</td>
+            </tr>
+            <tr>
+              <td style="padding:0.85rem 1rem; color:rgba(255,255,255,0.6);">The "RUN" Note</td>
+              <td style="padding:0.85rem 1rem;">Patient Bridget Kearns writes "RUN" on Teddy\'s notepad while Chuck gets water.</td>
+              <td style="padding:0.85rem 1rem;">She knows the clinicians are performing a theatrical intervention and tries to warn him that failure will result in his lobotomy.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">The Rule of 4: Anagrams and Identity Construction</h2>
+      <p>Inside the lighthouse, Dr. Cawley presents Andrew with the mathematical proof of his delusion—what the staff termed "The Rule of 4":</p>
+      <ul style="list-style-type:disc; padding-left:1.5rem; margin-bottom:1.5rem; line-height:1.8;">
+        <li><strong>EDWARD DANIELS</strong> is an exact 13-letter anagram of <strong>ANDREW LAEDDIS</strong>.</li>
+        <li><strong>RACHEL SOLANDO</strong> is an exact 13-letter anagram of <strong>DOLORES CHANAL</strong> (his late wife\'s maiden name).</li>
+        <li>Patient 67 is not a missing conspirator; Andrew is the 67th patient currently admitted to Ward C.</li>
+      </ul>
+      <p>Teddy Daniels was an elaborate psychological defensive suit of armor constructed by Andrew\'s ego to dissociate from the horrific truth that he ignored his wife\'s severe mental illness until she killed their children.</p>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Where to Stream Shutter Island in 2026</h2>
+      <p>For viewers looking to revisit Scorsese\'s thriller, <em>Shutter Island</em> is currently available on major streaming platforms depending on regional licensing:</p>
+      <ul style="list-style-type:disc; padding-left:1.5rem; margin-bottom:1.5rem; line-height:1.8;">
+        <li><strong>United States:</strong> Streaming on Paramount+, available to rent/buy on Amazon Prime Video and Apple TV.</li>
+        <li><strong>United Kingdom & Europe:</strong> Available on Netflix and Sky Cinema/NOW TV.</li>
+        <li><strong>Canada & Australia:</strong> Streaming on Paramount+ and BINGE.</li>
+      </ul>
+      <p>If you love psychological thrillers that challenge your perception of truth, check out our companion curation of <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog/movies-like-shutter-island">12 mind-bending movies like Shutter Island ranked by twist intensity</a>, or read our breakdown of <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog/the-best-slow-burn-movies-and-why-we-return-to-them">the best slow-burn psychological mysteries</a>.</p>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Frequently Asked Questions (FAQ)</h2>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Was Teddy Daniels really crazy in Shutter Island?</h3>
+      <p>Yes. The canonical resolution confirmed by director Martin Scorsese and author Dennis Lehane is that Teddy Daniels was Andrew Laeddis, a traumatized patient at Ashecliffe Hospital suffering from severe dissociative psychosis.</p>
+
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Why did Andrew pretend to still be Teddy at the end?</h3>
+      <p>Andrew feigned a relapse because he could not live with the guilt of his wife killing their three children and his subsequent murder of her. Choosing to undergo a lobotomy allowed him to die with a clear conscience as a good man rather than live in agony as a monster.</p>
+
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Who was the woman in the cave that Teddy met?</h3>
+      <p>The woman in the cave claiming to be the real Dr. Rachel Solando was a hallucination created by Teddy\'s escalating paranoia and withdrawal from chlorpromazine (the anti-psychotic medication he had secretly been taking in his hospital rations).</p>
+
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Was Dr. Cawley trying to help Teddy or frame him?</h3>
+      <p>Dr. Cawley was genuinely trying to save Andrew. As an advocate of compassionate modern psychiatry, Cawley fought against Dr. Naehring and the supervisory board to prove that role-play psychotherapy could heal Andrew and save him from transorbital lobotomy.</p>
+    `,
+  },
+  {
+    slug: 'movies-like-shutter-island',
+    tag: 'Recommendations',
+    title: '12 Mind-Bending Psychological Thrillers Like Shutter Island (Ranked by Twist Intensity)',
+    date: 'Oct 27, 2026',
+    read: '16 min',
+    excerpt:
+      'Craving unreliable narrators, claustrophobic asylum mysteries, and gut-punch twists? Here are the 12 best psychological thrillers like Shutter Island, ranked from subtle dread to total reality distortion.',
+    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1600&auto=format&fit=crop',
+    imageAlt: 'A shadowy noir hallway with stark cinematic light rays, evoking psychological suspense and mystery',
+    content: `
+      <p>Few cinematic experiences match the visceral gut-punch of watching Martin Scorsese\'s <em>Shutter Island</em> for the first time. The intoxicating cocktail of gothic asylum isolation, paranoia-fueled detective work, and an unreliable narrator who slowly disintegrates before our eyes creates an unparalleled psychological rush. As explored in our deep-dive into the <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog/shutter-island-ending-explained">Shutter Island ending explained</a>, stories that force the audience to question their own senses linger long after the credits roll.</p>
+
+      <p>If you have exhausted Scorsese\'s neo-noir masterpiece and are searching for films that offer similar psychological vertigo, intricate puzzles, and shocking plot twists, here are the 12 absolute best psychological thrillers like <em>Shutter Island</em>, ranked by twist intensity.</p>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Quick Comparison: The Top 12 Psychological Thrillers</h2>
+      <div style="overflow-x:auto; margin:2rem 0;">
+        <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+          <thead>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.2);">
+              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#c9a876;">Film</th>
+              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#f5f5f5;">Director</th>
+              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#f5f5f5;">IMDb / RT</th>
+              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#f5f5f5;">Twist Intensity</th>
+              <th style="text-align:left; padding:0.85rem 1rem; font-weight:600; color:#f5f5f5;">Primary Stream</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem; font-weight:600;">1. Memento (2000)</td>
+              <td style="padding:0.85rem 1rem;">Christopher Nolan</td>
+              <td style="padding:0.85rem 1rem;">8.4 / 94%</td>
+              <td style="padding:0.85rem 1rem; color:#c9a876;">10 / 10</td>
+              <td style="padding:0.85rem 1rem;">Prime Video</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem; font-weight:600;">2. The Prestige (2006)</td>
+              <td style="padding:0.85rem 1rem;">Christopher Nolan</td>
+              <td style="padding:0.85rem 1rem;">8.5 / 77%</td>
+              <td style="padding:0.85rem 1rem; color:#c9a876;">9.5 / 10</td>
+              <td style="padding:0.85rem 1rem;">Apple TV / Rent</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem; font-weight:600;">3. The Machinist (2004)</td>
+              <td style="padding:0.85rem 1rem;">Brad Anderson</td>
+              <td style="padding:0.85rem 1rem;">7.7 / 77%</td>
+              <td style="padding:0.85rem 1rem; color:#c9a876;">9.5 / 10</td>
+              <td style="padding:0.85rem 1rem;">Paramount+</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem; font-weight:600;">4. Jacob\'s Ladder (1990)</td>
+              <td style="padding:0.85rem 1rem;">Adrian Lyne</td>
+              <td style="padding:0.85rem 1rem;">7.4 / 73%</td>
+              <td style="padding:0.85rem 1rem; color:#c9a876;">9.0 / 10</td>
+              <td style="padding:0.85rem 1rem;">Tubi / Prime</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem; font-weight:600;">5. Cure (1997)</td>
+              <td style="padding:0.85rem 1rem;">Kiyoshi Kurosawa</td>
+              <td style="padding:0.85rem 1rem;">7.5 / 93%</td>
+              <td style="padding:0.85rem 1rem; color:#c9a876;">8.5 / 10</td>
+              <td style="padding:0.85rem 1rem;">Criterion Channel</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem; font-weight:600;">6. Zodiac (2007)</td>
+              <td style="padding:0.85rem 1rem;">David Fincher</td>
+              <td style="padding:0.85rem 1rem;">7.7 / 90%</td>
+              <td style="padding:0.85rem 1rem; color:#c9a876;">8.0 / 10</td>
+              <td style="padding:0.85rem 1rem;">Paramount+</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem; font-weight:600;">7. Primal Fear (1996)</td>
+              <td style="padding:0.85rem 1rem;">Gregory Hoblit</td>
+              <td style="padding:0.85rem 1rem;">7.7 / 77%</td>
+              <td style="padding:0.85rem 1rem; color:#c9a876;">9.0 / 10</td>
+              <td style="padding:0.85rem 1rem;">Max / Prime</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem; font-weight:600;">8. The Sixth Sense (1999)</td>
+              <td style="padding:0.85rem 1rem;">M. Night Shyamalan</td>
+              <td style="padding:0.85rem 1rem;">8.2 / 86%</td>
+              <td style="padding:0.85rem 1rem; color:#c9a876;">10 / 10</td>
+              <td style="padding:0.85rem 1rem;">Disney+ / Hulu</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem; font-weight:600;">9. Fractured (2019)</td>
+              <td style="padding:0.85rem 1rem;">Brad Anderson</td>
+              <td style="padding:0.85rem 1rem;">6.5 / 59%</td>
+              <td style="padding:0.85rem 1rem; color:#c9a876;">8.5 / 10</td>
+              <td style="padding:0.85rem 1rem;">Netflix Original</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem; font-weight:600;">10. Identity (2003)</td>
+              <td style="padding:0.85rem 1rem;">James Mangold</td>
+              <td style="padding:0.85rem 1rem;">7.3 / 63%</td>
+              <td style="padding:0.85rem 1rem; color:#c9a876;">9.0 / 10</td>
+              <td style="padding:0.85rem 1rem;">Netflix / Rent</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
+              <td style="padding:0.85rem 1rem; font-weight:600;">11. A Beautiful Mind (2001)</td>
+              <td style="padding:0.85rem 1rem;">Ron Howard</td>
+              <td style="padding:0.85rem 1rem;">8.2 / 74%</td>
+              <td style="padding:0.85rem 1rem; color:#c9a876;">8.5 / 10</td>
+              <td style="padding:0.85rem 1rem;">Prime Video</td>
+            </tr>
+            <tr>
+              <td style="padding:0.85rem 1rem; font-weight:600;">12. Gone Girl (2014)</td>
+              <td style="padding:0.85rem 1rem;">David Fincher</td>
+              <td style="padding:0.85rem 1rem;">8.1 / 88%</td>
+              <td style="padding:0.85rem 1rem; color:#c9a876;">8.5 / 10</td>
+              <td style="padding:0.85rem 1rem;">Max / Netflix</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Deep Dives: The 3 Closest Matches to Shutter Island</h2>
+
+      <h3 style="font-size:1.25rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem; color:#c9a876;">1. Memento (2000) — The Ultimate Unreliable Memory</h3>
+      <p>Christopher Nolan\'s breakout indie thriller follows Leonard Shelby (Guy Pearce), an insurance investigator who suffers from anterograde amnesia (inability to form new memories) following an attack that claimed his wife\'s life. Told in reverse chronological order, the audience is trapped inside Leonard\'s disorienting condition. Like Teddy Daniels, Leonard\'s entire quest is motivated by righteous vengeance, only for the climax to reveal that the greatest deceiver in his life is his own subconscious mind.</p>
+
+      <h3 style="font-size:1.25rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem; color:#c9a876;">2. The Machinist (2004) — Guilt and Physical Deterioration</h3>
+      <p>Directed by Brad Anderson and featuring Christian Bale\'s alarming 62-pound weight loss, <em>The Machinist</em> chronicles Trevor Reznik, a factory worker who has not slept in a year. As cryptic sticky notes appear in his apartment and an eerie co-worker named Ivan stalks his steps, Trevor descends into paranoid mania. The parallel to <em>Shutter Island</em> is uncanny: both films examine the sheer, horrifying lengths to which the human psyche will distort reality to avoid confronting trauma-induced culpability.</p>
+
+      <h3 style="font-size:1.25rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem; color:#c9a876;">3. Cure (1997) — Contagious Psychological Dread</h3>
+      <p>For cinephiles who appreciate the contemplative pacing of <a style="color:#c9a876; text-decoration:underline; text-underline-offset:3px;" href="/blog/what-is-slow-cinema">slow cinema</a> combined with chilling mystery, Kiyoshi Kurosawa\'s Japanese masterpiece <em>Cure</em> is non-negotiable. Detective Takabe investigates a series of gruesome murders committed by ordinary citizens who carved an \'X\' into their victims, none of whom recall why they did it. The thread leads to an amnesiac young man whose calm inquiries dismantle the sanity of anyone who speaks with him.</p>
+
+      <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">Frequently Asked Questions (FAQ)</h2>
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">What is the most similar movie to Shutter Island on Netflix?</h3>
+      <p>The closest match on Netflix is Brad Anderson\'s <em>Fractured</em> (2019), which features a man desperately searching for his missing wife and daughter inside an eerie hospital where staff deny the family was ever admitted, leading to a shocking psychological twist.</p>
+
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Which movie has a bigger twist than Shutter Island?</h3>
+      <p>Christopher Nolan\'s <em>Memento</em> (2000) and M. Night Shyamalan\'s <em>The Sixth Sense</em> (1999) are widely considered to possess twist reveals equal to or surpassing Shutter Island, as both reframe the protagonist\'s fundamental existential reality.</p>
+
+      <h3 style="font-size:1.15rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem;">Are there any slow-burn psychological thrillers like Shutter Island?</h3>
+      <p>Yes. David Fincher\'s <em>Zodiac</em> (2007) and Kiyoshi Kurosawa\'s <em>Cure</em> (1997) prioritize deliberate, creeping dread, atmospheric tension, and meticulous investigative obsession over jump scares, making them ideal slow-burn companions.</p>
+    `,
+  },
 ];
