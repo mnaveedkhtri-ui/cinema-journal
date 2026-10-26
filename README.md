@@ -1,7 +1,19 @@
-# The Long Take — Next.js site
+# The Long Take — Slow Cinema Journal & Film Essays
 
-Converted from the original static HTML into a proper Next.js 14 (App Router) project,
-ready to push to GitHub and deploy on Vercel.
+An independent slow cinema journal and collection of film essays, exploring the contemplative gaze, cinematic duration, and visual storytelling.
+
+Built with **Next.js 14 (App Router)**, Tailwind CSS, and structured JSON-LD SEO schemas.
+
+## 🎬 Live Production & Editorial Dispatches
+
+- **Official Publication:** [The Long Take Journal](https://cinema-journal.vercel.app/)
+- **Master Guide:** [What is Slow Cinema? Definition, Aesthetics, and Essential Directors](https://cinema-journal.vercel.app/blog/what-is-slow-cinema)
+- **Cinematic Theory:** [Sculpting in Time: Andrei Tarkovsky’s Philosophy of Duration](https://cinema-journal.vercel.app/blog/andrei-tarkovsky-sculpting-in-time)
+- **Film Notebook:** [Best Slow Burn Movies and Why We Keep Returning](https://cinema-journal.vercel.app/blog/the-best-slow-burn-movies-and-why-we-return-to-them)
+- **Critical Craft:** [Film Essays: What They Are and Why They Matter](https://cinema-journal.vercel.app/blog/film-essays)
+- **Visual Technique:** [The Long Take: Inside Cinema's Most Celebrated Continuous Shots](https://cinema-journal.vercel.app/blog/the-long-take)
+
+---
 
 ## Structure
 
@@ -45,63 +57,9 @@ cinema-blog/
 
 ## Adding a new blog post
 
-Open `data/blogPosts.ts` and add a new object to the `blogPosts` array, e.g.:
+Open `data/blogPosts.ts` and add a new object to the `blogPosts` array.
 
-```ts
-{
-  slug: 'my-new-post-slug',
-  tag: 'Craft',
-  title: 'My new post title',
-  date: 'Dec 01, 2025',
-  read: '6 min',
-  excerpt: 'A short one or two sentence summary.',
-  content: `
-    <p>Your first paragraph.</p>
-    <p>Your second paragraph.</p>
-  `,
-},
-```
+## Sitemap & SEO
 
-The page `/blog/my-new-post-slug` is generated automatically — no other file needs to change.
-
-## Local development
-
-```bash
-npm install
-npm run dev
-```
-
-Visit http://localhost:3000
-
-## Deploy — GitHub + Vercel
-
-### 1. Push to GitHub
-
-```bash
-cd cinema-blog
-git init
-git add .
-git commit -m "Initial commit — The Long Take"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
-
-(Create the empty repo first at https://github.com/new — don't initialize it with a README,
-so the push above doesn't conflict.)
-
-### 2. Deploy on Vercel
-
-1. Go to https://vercel.com/new
-2. Click **Import Git Repository** and select the repo you just pushed.
-3. Framework Preset: Vercel auto-detects **Next.js** — leave build settings as default
-   (`next build`, output `.next`).
-4. Click **Deploy**.
-
-Every future push to `main` will auto-redeploy. Pushes to other branches get their own
-preview URL.
-
-### Custom domain
-
-In the Vercel project → **Settings → Domains**, add your domain and follow the DNS
-instructions Vercel gives you.
+- Auto-generating dynamic XML sitemap at `/sitemap.xml`.
+- Structured Data: `@type: WebSite`, `@type: Article`, and `@type: FAQPage` JSON-LD schemas embedded for Google Rich Snippets & AI Overviews.
