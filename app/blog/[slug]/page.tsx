@@ -7,7 +7,7 @@ import NewsletterSection from '@/components/NewsletterSection';
 import { blogPosts } from '@/data/blogPosts';
 import { SaveShareButtons, TagButtons } from './interactive';
 
-const TAGS = ['Location', 'Tarkovsky', 'Marker', 'Wenders', 'Duration', 'Light', 'Architecture'];
+const TAGS = ['Location', 'Tarkovsky', 'Marker', 'Wenders', 'Duration', 'Light', 'Architecture', 'Slow Cinema', 'Theory'];
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
@@ -16,16 +16,43 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const post = blogPosts.find((p) => p.slug === params.slug);
   if (!post) return {};
+  
+  const url = `https://cinema-journal.vercel.app/blog/${params.slug}`;
+  
   return {
     title: post.title,
     description: post.excerpt,
+    alternates: {
+      canonical: url,
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,
+      url: url,
       type: 'article',
+      images: post.image ? [{ url: post.image, width: 1600, height: 900, alt: post.imageAlt || post.title }] : undefined,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
       images: post.image ? [post.image] : undefined,
     },
   };
+}
+
+function extractFaqs(content: string) {
+  const faqRegex = /<h3[^>]*>(.*?)<\/h3>\s*<p>(.*?)<\/p>/gi;
+  const faqs: { question: string; answer: string }[] = [];
+  let match;
+  while ((match = faqRegex.exec(content)) !== null) {
+    const q = match[1].replace(/<[^>]+>/g, '').trim();
+    const a = match[2].replace(/<[^>]+>/g, '').trim();
+    if (q && a) {
+      faqs.push({ question: q, answer: a });
+    }
+  }
+  return faqs;
 }
 
 export default function ArticlePage({ params }: { params: { slug: string } }) {
@@ -33,6 +60,48 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
   if (!post) notFound();
 
   const relatedPosts = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 3);
+  const faqs = extractFaqs(post.content);
+
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.excerpt,
+    image: post.image || 'https://cinema-journal.vercel.app/icon.png',
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      '@type': 'Person',
+      name: 'Iván Castellano',
+      jobTitle: 'Contributing Editor',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'The Long Take',
+      url: 'https://cinema-journal.vercel.app',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://cinema-journal.vercel.app/icon.png',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://cinema-journal.vercel.app/blog/${post.slug}`,
+    },
+  };
+
+  const faqSchema = faqs.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  } : null;
 
   const headerInner = (
     <>
@@ -73,9 +142,19 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
 
   return (
     <>
+      {/* Structured SEO Schema for Google Rich Snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+
       {post.image ? (
-        // Full-bleed hero, graded to match the site's ambient cinematic background
-        // so the photo fades into --bg instead of sitting on top of it.
         <div className="article-hero h-[68vh] min-h-[520px]">
           <img src={post.image} alt={post.imageAlt || post.title} />
           <div className="relative z-10 h-full flex flex-col justify-end px-6 lg:px-10 pt-40 pb-0 max-w-[860px] mx-auto">
