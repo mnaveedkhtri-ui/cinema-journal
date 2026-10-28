@@ -425,12 +425,17 @@ export const blogPosts: BlogPost[] = [
     read: '14 min',
     excerpt:
       'A comprehensive breakdown of Shutter Island\'s twist ending: decoding Teddy Daniels\' final words, Dr. Cawley\'s radical role-play experiment, all hidden visual clues, and the tragic reality of Andrew Laeddis.',
-    image: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop',
-    imageAlt: 'A solitary lighthouse shrouded in dense coastal fog at twilight, evoking Ashecliffe Hospital on Shutter Island',
+    image: 'https://images.unsplash.com/photo-1516815231560-8f41ec531527?q=80&w=1600&auto=format&fit=crop',
+    imageAlt: 'A solitary lighthouse atop rocky coastal cliffs engulfed in storm clouds, reflecting the Ashecliffe lighthouse mystery on Shutter Island',
     content: `
       <p>Martin Scorsese\'s 2010 psychological masterpiece <em>Shutter Island</em> remains one of the most debated thrillers in cinematic history. On the surface, the narrative follows US Marshal Edward "Teddy" Daniels (Leonardo DiCaprio) and his new partner Chuck Aule (Mark Ruffalo) as they investigate the mysterious disappearance of patient Rachel Solando from Ashecliffe Hospital for the criminally insane. However, the final fifteen minutes dismantle everything the spectator has witnessed, culminating in a devastating epiphany that recontextualizes every single frame of the film.</p>
 
       <p>Was Teddy Daniels genuinely an inmate named Andrew Laeddis who suffered a catastrophic psychotic break? Or was he a sane federal investigator systematically drugged, gaslit, and trapped inside a sinister government conspiracy? Below is the definitive, clue-by-clue analysis of the film\'s climax, the historical medicine behind Dr. Cawley\'s radical therapy, and the true meaning of Teddy\'s immortal final question.</p>
+
+      <figure style="margin:2.5rem 0; text-align:center;">
+        <img src="https://images.unsplash.com/photo-1509248961158-e54f6934749c?q=80&w=1200&auto=format&fit=crop" alt="A dark institutional corridor shrouded in shadow" style="width:100%; border-radius:8px; border:1px solid rgba(255,255,255,0.15);" />
+        <figcaption style="font-size:0.85rem; color:rgba(255,255,255,0.5); margin-top:0.6rem; font-style:italic;">Ward C and the grim, rain-drenched corridors of Ashecliffe Hospital</figcaption>
+      </figure>
 
       <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">The Final Line Decoded: Did Andrew Choose a Voluntary Lobotomy?</h2>
       <p>The philosophical emotional core of <em>Shutter Island</em> rests upon its final spoken sentence. Sitting on the hospital steps next to Dr. Sheehan (disguised as Chuck), Teddy looks out toward the lawn and mutters:</p>
@@ -661,8 +666,8 @@ export const blogPosts: BlogPost[] = [
     read: '14 min',
     excerpt:
       'A definitive scene-by-scene analysis of Christopher Nolan\'s Inception ending. We examine the spinning top totem, Cobb\'s wedding ring clue, the dream levels timeline, and why the emotional resolution transcends the physical question.',
-    image: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop',
-    imageAlt: 'A sharp metallic architectural structure reflecting geometric shadows, reminiscent of Christopher Nolan\'s dream architecture in Inception',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1600&auto=format&fit=crop',
+    imageAlt: 'Towering modern glass skyscrapers angled upward in dizzying perspective, mirroring Christopher Nolan\'s folding cityscapes in Inception',
     content: `
       <p>Few movie conclusions in the history of cinema have ignited as much fervent debate as the final seconds of Christopher Nolan's 2010 sci-fi opus, <em>Inception</em>. Dom Cobb (Leonardo DiCaprio) returns home to Los Angeles, spins his pewter top on the dining table, and walks out to embrace his children in the sunlit backyard. As the camera dollies into the spinning cylinder, the top wobbles slightly, the sound of metal humming against wood builds, and Nolan cuts abruptly to black.</p>
 
@@ -731,6 +736,11 @@ export const blogPosts: BlogPost[] = [
       <h3 style="font-size:1.25rem; font-weight:600; margin-top:1.5rem; margin-bottom:0.5rem; color:#c9a876;">3. The Dream Theory: Trapped in Saito's Limbo</h3>
       <p>Proponents of the dream theory point to subtle uncanny coincidences. Phillipa and James appear to wear almost identical outfits to the memory projection Cobb has clung to for years, and they are playing in the exact same spot in the garden. While costume designer Jeffrey Kurland confirmed that the children's outfits were slightly altered and older actors were cast for the final scene, the dream-like golden lighting and instantaneous passage through US customs lend credence to the idea that Cobb constructed a blissful final illusion.</p>
 
+      <figure style="margin:2.5rem 0; text-align:center;">
+        <img src="https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=1200&auto=format&fit=crop" alt="A metallic sphere reflecting geometric dreamscapes" style="width:100%; border-radius:8px; border:1px solid rgba(255,255,255,0.15);" />
+        <figcaption style="font-size:0.85rem; color:rgba(255,255,255,0.5); margin-top:0.6rem; font-style:italic;">The delicate boundary between subconscious dream architecture and waking reality</figcaption>
+      </figure>
+
       <h2 style="font-size:1.6rem; font-weight:600; margin-top:2.5rem; margin-bottom:1rem; letter-spacing:0.02em;">The Thematic Truth: Catharsis Over Verification</h2>
       <p>Christopher Nolan addressed the ending during his 2015 Princeton commencement speech, offering an answer that elevates the debate beyond mere plot mechanics:</p>
       <p style="font-style:italic; padding-left:1.5rem; border-left:2px solid #c9a876; color:rgba(255,255,255,0.85);">"The way the end of that film worked, Leonardo DiCaprio's character Cobb was off with his kids, he was in his own subjective reality. He didn't really care anymore, and that makes a statement: perhaps, all levels of reality are valid. The camera moves in on the spinning top just as it starts to wobble, and then it cuts to black. I skip out of the back of the theater before people catch me."</p>
@@ -763,8 +773,8 @@ export const blogPosts: BlogPost[] = [
     read: '16 min',
     excerpt:
       'Craving another intellectual puzzle? From Paprika and Shutter Island to Tenet, Coherence, and The Matrix, here are the 12 best mind-bending films like Inception ranked by psychological complexity, dream mechanics, and streaming platforms.',
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1600&auto=format&fit=crop',
-    imageAlt: 'A dizzying urban streetscape mirroring upside down in a surreal architectural perspective',
+    image: 'https://images.unsplash.com/photo-1507499739999-097706ad8914?q=80&w=1600&auto=format&fit=crop',
+    imageAlt: 'A surreal geometric neon mirror portal reflecting infinite parallel realities, echoing the mind-bending puzzles of Inception',
     content: `
       <p>When Christopher Nolan unleashed <em>Inception</em> upon theaters in 2010, it established a gold standard for original high-concept cinematic storytelling. It proved that a summer blockbuster could demand cognitive rigor, interweaving multi-tiered dream realities, heist mechanics, and existential emotional resonance without sacrificing spectacle.</p>
 
