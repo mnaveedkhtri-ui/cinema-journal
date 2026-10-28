@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -13,6 +14,7 @@ const links = [
 
 export default function Navbar() {
   const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState(false);
 
   const isActive = (href: string) => {
     if (href === '/blog') return pathname === '/blog' || pathname.startsWith('/blog/');
@@ -35,6 +37,7 @@ export default function Navbar() {
           </div>
         </Link>
 
+        {/* Desktop links */}
         <div className="hidden md:flex items-center gap-7 text-sm">
           {links.map((l) => (
             <Link
@@ -52,8 +55,43 @@ export default function Navbar() {
             <span className="live-dot" />
             <span>NOW PLAYING</span>
           </div>
+
+          {/* Mobile hamburger button */}
+          <button
+            type="button"
+            className="md:hidden flex items-center justify-center w-9 h-9 text-white/70 hover:text-white border border-white/15 rounded bg-white/5 transition-colors"
+            onClick={() => setIsOpen(!isOpen)}
+            aria-label="Toggle navigation menu"
+            aria-expanded={isOpen}
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              {isOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7h16M4 12h16M4 17h16" />
+              )}
+            </svg>
+          </button>
         </div>
       </div>
+
+      {/* Mobile drawer */}
+      {isOpen && (
+        <div className="md:hidden border-t border-white/10 bg-[#080808]/95 backdrop-blur-2xl px-6 py-5 space-y-3">
+          {links.map((l) => (
+            <Link
+              key={l.href}
+              href={l.href}
+              onClick={() => setIsOpen(false)}
+              className={`block text-sm py-1.5 transition-colors ${
+                isActive(l.href) ? 'text-white font-medium pl-2 border-l border-white' : 'text-white/60 hover:text-white'
+              }`}
+            >
+              {l.label}
+            </Link>
+          ))}
+        </div>
+      )}
     </nav>
   );
 }

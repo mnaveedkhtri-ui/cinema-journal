@@ -105,11 +105,11 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
 
   const headerInner = (
     <>
-      <Link href="/blog" className="text-sm text-white/50 hover:text-white flex items-center gap-2 mb-10 transition-colors">
+      <Link href="/blog" className="text-sm text-white/50 hover:text-white flex items-center gap-2 mb-6 transition-colors">
         <span className="arrow rotate-180">→</span> Back to blog
       </Link>
 
-      <div className="flex items-center gap-3 mb-8">
+      <div className="flex items-center gap-3 mb-6">
         <span className="eyebrow text-white/70">{post.tag}</span>
         <div className="w-8 h-px bg-white/20" />
         <span className="text-xs text-white/40 font-mono">
@@ -117,13 +117,13 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
         </span>
       </div>
 
-      <h1 className="font-display text-5xl md:text-7xl font-light leading-[1.02] mb-8 tracking-tight">
+      <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light leading-[1.1] mb-6 tracking-tight text-white drop-shadow-sm">
         {post.title}
       </h1>
 
-      <p className="text-xl text-white/65 leading-relaxed font-light mb-10">{post.excerpt}</p>
+      <p className="text-base md:text-lg text-white/70 leading-relaxed font-light mb-8 max-w-2xl">{post.excerpt}</p>
 
-      <div className="flex items-center justify-between border-y border-white/12 py-5">
+      <div className="flex items-center justify-between border-y border-white/12 py-4">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-full bg-black/70 border border-white/25 flex items-center justify-center font-display text-sm backdrop-blur-sm">
             IC
@@ -155,15 +155,15 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
       )}
 
       {post.image ? (
-        <div className="article-hero h-[68vh] min-h-[520px]">
+        <div className="article-hero relative w-full min-h-[520px] pt-36 pb-16 flex items-end">
           <img src={post.image} alt={post.imageAlt || post.title} />
-          <div className="relative z-10 h-full flex flex-col justify-end px-6 lg:px-10 pt-40 pb-0 max-w-[860px] mx-auto">
+          <div className="relative z-10 w-full px-6 lg:px-10 max-w-[860px] mx-auto">
             <Reveal>{headerInner}</Reveal>
           </div>
         </div>
       ) : null}
 
-      <article className={`px-6 lg:px-10 ${post.image ? 'pt-16' : 'pt-40'} pb-20 max-w-[860px] mx-auto`}>
+      <article className={`px-6 lg:px-10 ${post.image ? 'pt-12' : 'pt-36'} pb-20 max-w-[860px] mx-auto`}>
         {!post.image && <Reveal className="mb-12">{headerInner}</Reveal>}
 
         <Reveal className="glass-panel p-8 md:p-12 mb-12">
