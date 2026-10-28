@@ -14,6 +14,8 @@ Built with **Next.js 14 (App Router)**, Tailwind CSS, and structured JSON-LD SEO
 - **Visual Technique:** [The Long Take: Inside Cinema's Most Celebrated Continuous Shots](https://cinema-journal.vercel.app/blog/the-long-take)
 - **Ending Explained:** [Shutter Island Ending Explained: Was Teddy Daniels Insane or Lobotomized?](https://cinema-journal.vercel.app/blog/shutter-island-ending-explained)
 - **Curated Recommendations:** [12 Mind-Bending Psychological Thrillers Like Shutter Island](https://cinema-journal.vercel.app/blog/movies-like-shutter-island)
+- **Ending Explained:** [Inception Ending Explained: Did the Totem Fall, and Does It Even Matter?](https://cinema-journal.vercel.app/blog/inception-ending-explained)
+- **Mind-Bending Curations:** [12 Mind-Bending Movies Like Inception That Play With Reality and Dreams](https://cinema-journal.vercel.app/blog/movies-like-inception)
 
 ---
 
