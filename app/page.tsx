@@ -4,7 +4,7 @@ import ArticleCard from '@/components/ArticleCard';
 import { blogPosts } from '@/data/blogPosts';
 
 export default function HomePage() {
-  const latestPosts = blogPosts.slice(0, 3);
+  const latestPosts = blogPosts.slice(0, 6);
   const notebook = ['On duration', 'On light', 'On the cut', 'On the frame', 'On sound'];
 
   return (
@@ -64,7 +64,7 @@ export default function HomePage() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {latestPosts.map((post) => (
             <ArticleCard key={post.slug} post={post} />
           ))}
