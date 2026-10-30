@@ -1,4 +1,4 @@
-# The Long Take — Slow Cinema Journal & Film Essays
+# The Long Take - Slow Cinema Journal & Film Essays
 
 An independent slow cinema journal and collection of film essays, exploring the contemplative gaze, cinematic duration, and visual storytelling.
 
@@ -16,6 +16,8 @@ Built with **Next.js 14 (App Router)**, Tailwind CSS, and structured JSON-LD SEO
 - **Curated Recommendations:** [12 Mind-Bending Psychological Thrillers Like Shutter Island](https://cinema-journal.vercel.app/blog/movies-like-shutter-island)
 - **Ending Explained:** [Inception Ending Explained: Did the Totem Fall, and Does It Even Matter?](https://cinema-journal.vercel.app/blog/inception-ending-explained)
 - **Mind-Bending Curations:** [12 Mind-Bending Movies Like Inception That Play With Reality and Dreams](https://cinema-journal.vercel.app/blog/movies-like-inception)
+- **Astrophysics & Climax:** [Interstellar Ending Explained: The Tesseract, 5D Beings, and Murphy's Watch](https://cinema-journal.vercel.app/blog/interstellar-ending-explained)
+- **Hard Sci-Fi Comparisons:** [12 Mind-Bending Sci-Fi Movies Like Interstellar](https://cinema-journal.vercel.app/blog/movies-like-interstellar)
 
 ---
 
